@@ -32,6 +32,16 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     background-color: white;
+    position: sticky;
+}
+
+.sidebar .logo {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    bottom: 10%;
 }
 
 
@@ -181,6 +191,8 @@ body {
     justify-content: space-evenly;
 }
 
+
+
 .content .header ul li {
     width: 23%;
     height: 15vh;
@@ -191,6 +203,7 @@ body {
     align-self: center;
     border-radius: 5px;
     background-color: #fff;
+
 }
 
 .content .header ul li p {
@@ -227,6 +240,11 @@ body {
     transform: translate(0, -50%);
     border-radius: 5px 0 0 5px;
     background: linear-gradient(0deg, rgba(100, 111, 227, 1) 50%, rgba(124, 97, 228, 1) 100%);
+    transition: 700ms;
+}
+
+.content .header ul li:hover .pic {
+    width: 100%;
 }
 
 
@@ -250,6 +268,7 @@ body {
     width: 80vw;
     height: calc(40vh - 24px);
     display: flex;
+    position: relative;
 }
 
 .article .edit {
@@ -282,6 +301,11 @@ body {
     background-color: #fff;
     border: 1px solid #f1f1f1;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.article #myChart {
+    position: absolute;
+    bottom: 1px;
 }
 
 .article .summary p {
