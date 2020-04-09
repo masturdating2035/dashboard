@@ -23,6 +23,9 @@ body {
     display: flex;
 }
 
+.blue {
+    color: #6256e6;
+}
 
 /***** Sidebar Style *****/
 .sidebar {
@@ -360,7 +363,7 @@ body {
 /***** Tickets *****/
 .tickets {
     width: 80vw;
-    height: calc(40vh - 24px);
+    height: calc(40vh - 10px);
     display: flex;
     margin-top: 10px;
 }
@@ -368,10 +371,10 @@ body {
 
 .tickets .tickets-star {
     width: 70%;
-    height: auto;
-    padding: 20px;
+    height: 100%;
+    padding: 10px 3px;
     border-radius: 5px;
-    margin: 12px 12px 12px 0;
+    margin: 3px 10px 3px 0;
     background: #fff;
     color: #a8a7a7;
     font-size: 16px;
@@ -381,16 +384,17 @@ body {
 
 .tickets .tickets-star ul {
     width: 100%;
-    height: 100%;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .tickets .tickets-star ul li {
-    width: 100%;
-    height: 20%;
+    width: 50%;
     display: flex;
     justify-content: center;
     font-size: 15px;
+    padding: 5px 0;
 }
 
 .tickets .tickets-star ul li.active {
@@ -414,16 +418,132 @@ body {
     font-size: 12px;
 }
 
+#table {
+    width: 100%;
+    position: relative;
+}
+
+#table tr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #dbd9d9;
+    transition: all 300ms;
+}
+
+
+#table tr:hover {
+    box-shadow: .5px .5px 4px rgba(0, 0, 0, .5);
+}
+
+
+
+#table .table-head {
+    width: 100%;
+    background-color: #f8f8f888;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+
+
+
+#table .create-td {
+    width: 25%;
+    text-align: right;
+    padding: 5px 0;
+    margin-right: 15px;
+}
+
+#table .create-td .detail {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+#table .create-td .gray-circle {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 17px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
+#table .label {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+#table .sub-label {
+    font-size: 10px;
+    font-weight: 800;
+    margin-right: 18px;
+}
+
+#table .sub-label-2 {
+    font-size: 10px;
+    font-weight: 800;
+    margin-right: 2px;
+}
+
+#table .avatar-td {
+    width: 25%;
+    display: flex;
+    text-align: right;
+    align-items: center;
+}
+
+#table .avatar-img {
+    width: 31px;
+    border-radius: 50%;
+}
+
+#table .avatar-name {
+    font-size: 10px;
+    font-weight: 800;
+    margin-right: 4px;
+    padding-bottom: 3px;
+}
+
+#table .avatar-time {
+    font-size: 8px;
+    color: #9e9e9e;
+    margin-right: 4px;
+}
+
+#table .priority-td {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+#table .priority-td span {
+    font-size: 10px;
+    color: #9e9e9e;
+    font-weight: 800;
+}
+
+#table .priority-td img {
+    width: 10px;
+    margin-left: 5px;
+}
+
 
 .tickets .message-box {
-    width: 30%;
+    width: 35%;
     height: 100%;
-    margin: 12px;
+    margin: 0 12px ;
     border-radius: 5px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #f1f1f1;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    
 }
 
 
