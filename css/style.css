@@ -64,7 +64,7 @@ body {
 }
 
 
-.sidebar .profile {
+.profile {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,14 +72,14 @@ body {
 }
 
 
-.sidebar .profile img {
+.profile img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
 
 
-.sidebar .profile .profile-name {
+.profile .profile-name {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,14 +87,14 @@ body {
 }
 
 
-.sidebar .profile .profile-name h4 {
+.profile .profile-name h4 {
     font-weight: normal;
     padding-bottom: 3px;
 }
 
 
 
-.sidebar .profile .profile-name h5 {
+.profile .profile-name h5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@ body {
 
 
 
-.sidebar .profile .profile-name h5>i {
+.profile .profile-name h5>i {
     margin-right: 20px;
     font-size: 11px;
 }
@@ -245,7 +245,9 @@ body {
 
 .content .header ul li:hover .pic {
     width: 100%;
+    cursor: pointer;
 }
+
 
 
 .content .header ul li:nth-child(2) .pic {
@@ -301,11 +303,28 @@ body {
     background-color: #fff;
     border: 1px solid #f1f1f1;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+.article .summary .legends {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 900;
+    color: #bebebe;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
 }
 
 .article #myChart {
     position: absolute;
-    bottom: 1px;
+    bottom: 30px;
 }
 
 .article .summary p {
@@ -349,8 +368,7 @@ body {
 
 .tickets .tickets-star {
     width: 70%;
-    height: 100%;
-    display: flex;
+    height: auto;
     padding: 20px;
     border-radius: 5px;
     margin: 12px 12px 12px 0;
