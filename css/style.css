@@ -784,12 +784,10 @@ body {
 
 /***** Search Box *****/
 .search-box {
-    width: 100%;
+    width: 80%;
     height: 50px;
     position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: none;
     padding: 20px;
     z-index: 200;
     background-color: #fff;
@@ -816,7 +814,7 @@ body {
 
 .search-box .alert {
     position: relative;
-    margin-right: 35%;
+    float: left;
 }
 
 .search-box .alert span {
