@@ -53,3 +53,17 @@ var myChart = new Chart(document.getElementById("myChart"), {
         }
     }
 });
+
+
+
+
+
+
+$(document).scroll(function () {
+    let height = $(this).scrollTop();
+    if (height > 40) {
+        $('.search-box').fadeIn();
+    } else {
+        $('.search-box').fadeOut();
+    }
+});

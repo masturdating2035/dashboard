@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <script src="./js/jquery-3.4.1.min.js"></script>
     <title>Dashboard</title>
 </head>
 
@@ -60,6 +61,22 @@
 
 
         <section class="content">
+            <!-- search box start -->
+            <div class="search-box">
+                <span>
+                    <i class="far fa-search"></i>
+                    <input type="text" placeholder="جستجو کنید ..." style="font-family: shabnam;">
+                </span>
+
+                <span class="alert">
+                    <span>۲</span>
+                    <i class="fas fa-comment-alt-lines"></i>
+                    <span class="bell">۸</span>
+                    <i class="fas fa-bell"></i>
+                </span>
+            </div>
+            <!-- search box end -->
+
             <div class="header">
                 <ul>
                     <li>
@@ -128,10 +145,10 @@
 
                     <table id="table" dir="rtl">
                         <tr class="table-head">
-                            <th class="table-title">عنوان</td>
+                            <th class="table-title" style="margin-right: 10px;">عنوان</td>
                             <th class="table-created">ایجاد شده</td>
                             <th class="table-important">الویت</td>
-                            <th class="table-last-response">آخرین پاسخ دهنده</th>
+                            <th class="table-last-response" style="margin-left: 35px;">آخرین پاسخ دهنده</th>
                         </tr>
 
 
@@ -266,9 +283,6 @@
                                 </span>
                             </td>
                         </tr>
-
-
-
                     </table>
 
 
@@ -335,6 +349,255 @@
 
             </section>
 
+
+            <section class="encyclopedia-news-star">
+                <div class="encyclopedia">
+                    <div class="encyclopedia-star-title">
+                        <div class="encyclopedia-star-top">
+                            <p>دانشنامه های ستاره دار</p>
+                            <p>بدون ستاره</p>
+                        </div>
+                        <div>
+                            <button>ماه گذشته <i class="fas fa-caret-down"></i></button>
+                        </div>
+                    </div>
+
+
+                    <table id="table" style="margin-top:20px;" dir="rtl">
+                        <tr class="table-head">
+                            <td style="margin-right: 15px;">عنوان</td>
+                            <td style="margin-right: 8px;">ایجاد شده توسط</td>
+                            <td style="margin-left: 15px;">سامانه</td>
+                        </tr>
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </div>
+
+
+
+
+
+                <div class="news-star">
+                    <div class="encyclopedia-star-title">
+                        <div class="encyclopedia-star-top">
+                            <p>خبرهای ستاره دار</p>
+                            <p>بدون ستاره</p>
+                        </div>
+                        <div>
+                            <button>ماه گذشته <i class="fas fa-caret-down"></i></button>
+                        </div>
+                    </div>
+
+
+                    <table id="table" style="margin-top:20px;" dir="rtl">
+                        <tr class="table-head">
+                            <td style="margin-right: 15px;">عنوان</td>
+                            <td style="margin-right: 8px;">ایجاد شده توسط</td>
+                            <td style="margin-left: 15px;">سامانه</td>
+                        </tr>
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+
+                        <tr class="table-row-encyclopedia">
+                            <td class="table-title-td">
+                                <p>کلمات، تعاریف و قوانین اصلی</p>
+                                <p class="blue"><i class="far fa-tag"></i>
+                                    سند‍، مدیریت، سازمانی</p>
+                            </td>
+
+                            <td class="table-create-td">
+                                <span>
+                                    <img src="./img/1.jpg">
+                                    <span>مصطفی حسینی، سه روز پیش</span>
+                                </span>
+                            </td>
+
+                            <td>
+                                <span>عمومی</span>
+                            </td>
+                        </tr>
+
+
+                    </table>
+
+                </div>
+            </section>
         </section>
 
     </div>
