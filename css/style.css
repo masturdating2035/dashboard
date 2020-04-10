@@ -306,7 +306,7 @@ body {
     margin-right: 12px;
     margin-left: 12px;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     background-color: #fff;
     border: 1px solid #f1f1f1;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -316,6 +316,8 @@ body {
 .article .summary .summary-btn {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
 }
 
 
@@ -388,7 +390,6 @@ body {
     margin: 3px 10px 3px 0;
     background: #fff;
     color: #a8a7a7;
-    font-size: 16px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -404,7 +405,7 @@ body {
     width: 50%;
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 13px;
     padding: 5px 0;
 }
 
@@ -564,7 +565,7 @@ body {
 .tickets .message-box p:first-child {
     width: 33%;
     height: 15%;
-    font-size: 16px;
+    font-size: 14px;
     border-bottom: 2px solid #6257e4;
 }
 
