@@ -22,6 +22,7 @@ var myChart = new Chart(document.getElementById("myChart"), {
         ]
     },
     options: {
+        responsive: true,
         legend: {
             display: false
         },
