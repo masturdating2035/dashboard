@@ -42,7 +42,6 @@ var myChart = new Chart(document.getElementById("myChart"), {
                 },
                 scaleLabel: {
                     display: true,
-                    labelString: 'تعداد',
                     fontFamily: 'Shabnam'
                 }
             }]
