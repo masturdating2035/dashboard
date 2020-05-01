@@ -398,14 +398,16 @@ body {
 
 .tickets .tickets-star {
     width: 60%;
-    height: auto;
+    height: 70vh;
     padding: 10px 3px;
     border-radius: 5px;
     margin: 3px 10px 3px 0;
     background: #fff;
     color: #a8a7a7;
+    position: relative;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
+
 
 
 .tickets .tickets-star ul {
@@ -581,7 +583,7 @@ body {
 
 .tickets .message-box {
     width: 40%;
-    height: 100%;
+    height: 70vh;
     margin: 0 12px;
     border-radius: 5px;
     padding: 20px;
@@ -631,7 +633,7 @@ body {
 
 
 .tickets .message-box .message-box-persons {
-    height: 30%;
+    height: 24%;
     display: flex;
     align-items: center;
     margin-top: 25px;
@@ -691,12 +693,12 @@ body {
 }
 
 
-
 .encyclopedia-news-star {
     width: 78vw;
     display: flex;
     justify-content: space-between;
     margin: 12px;
+    margin-top: 22%;
     padding: 12px;
     border: 1px solid #f1f1f1;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
