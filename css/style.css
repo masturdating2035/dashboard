@@ -306,7 +306,7 @@ body {
     margin-right: 12px;
     margin-left: 12px;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     background-color: #fff;
     border: 1px solid #f1f1f1;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -316,6 +316,8 @@ body {
 .article .summary .summary-btn {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
 }
 
 
@@ -390,7 +392,6 @@ body {
     margin: 3px 10px 3px 0;
     background: #fff;
     color: #a8a7a7;
-    font-size: 16px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -406,7 +407,7 @@ body {
     width: 50%;
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 13px;
     padding: 5px 0;
 }
 
@@ -566,7 +567,7 @@ body {
 .tickets .message-box p:first-child {
     width: 33%;
     height: 15%;
-    font-size: 16px;
+    font-size: 14px;
     border-bottom: 2px solid #6257e4;
 }
 
@@ -602,14 +603,15 @@ body {
 
 
 .tickets .message-box .message-box-persons {
+    height: 30%;
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .tickets .message-box .message-box-persons img {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
@@ -617,18 +619,17 @@ body {
 .tickets .message-box .message-box-persons .message-box-persons-intro {
     display: flex;
     justify-content: space-between;
-    padding: 2px 0;
     margin-right: 5px;
 }
 
 
 .tickets .message-box .message-box-persons .message-box-persons-intro .message-name {
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .tickets .message-box .message-box-persons .message-box-persons-intro .new-message {
     background-color: #f5375d;
-    font-size: 10px;
+    font-size: 8px;
     border-radius: 15px;
     padding: 3px 7px;
     color: #ffffff;
@@ -637,29 +638,27 @@ body {
 
 
 .tickets .message-box .message-box-persons .message-box-persons-intro .message-time {
-    font-size: 12px;
+    font-size: 9px;
 }
 
 
 
 .tickets .message-box .message-box-persons .message-box-persons-report {
-    padding: 0 0 2px 0;
     margin-right: 5px;
 }
 
 
 .tickets .message-box .message-box-persons .message-box-persons-report span {
-    font-size: 13px;
+    font-size: 9px;
 }
 
 
 .tickets .message-box .message-box-persons .message-box-persons-detail {
-    padding: 0 0 2px 0;
     margin-right: 5px;
 }
 
 .tickets .message-box .message-box-persons .message-box-persons-detail span {
-    font-size: 11px;
+    font-size: 9px;
     color: #cfcfcf;
 }
 
