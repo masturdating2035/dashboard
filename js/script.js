@@ -22,6 +22,8 @@ var myChart = new Chart(document.getElementById("myChart"), {
         ]
     },
     options: {
+        responsive: true,
+        maintainAspectRatio:false,
         legend: {
             display: false
         },
