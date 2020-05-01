@@ -65,7 +65,7 @@
             <div class="search-box">
                 <span>
                     <i class="fas fa-search"></i>
-                    <input type="text" placeholder="جستجو کنید ..." style="font-family: shabnam;">
+                    <input type="text" placeholder="جستجو کنید ...">
                 </span>
 
                 <span class="alert">
@@ -119,8 +119,8 @@
 
                 <div class="summary">
                     <div class="summary-btn">
-                        <p style="font-size: 13px;">خلاصه عملکرد</p>
-                        <button style="font-size: 10px;">ماه گذشته <i class="fas fa-caret-down"></i></button>
+                        <p>خلاصه عملکرد</p>
+                        <button>ماه گذشته <i class="fas fa-caret-down"></i></button>
                     </div>
                     <div class="parent-chart">
                         <canvas id="myChart"></canvas>
@@ -131,7 +131,7 @@
                     <div class="legends">
                         <span><i class="fas fa-circle"></i> خبر</span>
                         <span><i class="fas fa-circle"></i> دانشنامه</span>
-                        <span><i class="fas fa-circle" style="color: orange;"></i> تیکت</span>
+                        <span><i class="fas fa-circle active-ticket"></i> تیکت</span>
                     </div>
 
                 </div>
@@ -150,10 +150,10 @@
 
                     <table id="table" dir="rtl">
                         <tr class="table-head">
-                            <th class="table-title" style="margin-right: 10px;">عنوان</td>
+                            <th class="table-title">عنوان</td>
                             <th class="table-created">ایجاد شده</td>
                             <th class="table-important">الویت</td>
-                            <th class="table-last-response" style="margin-left: 35px;">آخرین پاسخ دهنده</th>
+                            <th class="table-last-response">آخرین پاسخ دهنده</th>
                         </tr>
 
 
@@ -217,11 +217,79 @@
                             <td class="avatar-td">
                                 <img class="avatar-img" src="./img/1.jpg" alt="avatar" />
                                 <span>
-                                    <div class="avatar-name">محدرضا شیری</div>
+                                    <div class="avatar-name">محمدرضا شیری</div>
                                     <div class="avatar-time">۳ روز پیش</div>
                                 </span>
                             </td>
                         </tr>
+
+                        <tr>
+                            <td class="create-td">
+                                <span class="choose"></span>
+                                <div class="label">تعویض کارت صدای سیستم</div>
+                                <div class="detail">
+                                    <span class="gray-circle"></span>
+                                    <span class="sub-label">عمومی</span>
+                                    <span class="sub-label-2 blue">
+                                        <i class="far fa-tag"></i>
+                                        سند‍، مدیریت، سازمانی
+                                    </span>
+                                </div>
+                            </td>
+                            <td class="avatar-td">
+                                <img class="avatar-img" src="./img/1.jpg" alt="avatar" />
+                                <span>
+                                    <div class="avatar-name">معین قاسمی</div>
+                                    <div class="avatar-time">۳ روز پیش</div>
+                                </span>
+                            </td>
+                            <td class="priority-td">
+                                <img src="./img/medium.jpg" alt="low" />
+                                <span>متوسط</span>
+                            </td>
+                            <td class="avatar-td">
+                                <img class="avatar-img" src="./img/1.jpg" alt="avatar" />
+                                <span>
+                                    <div class="avatar-name">محمدرضا شیری</div>
+                                    <div class="avatar-time">۳ روز پیش</div>
+                                </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="create-td">
+                                <span class="choose"></span>
+                                <div class="label">تعویض کارت صدای سیستم</div>
+                                <div class="detail">
+                                    <span class="gray-circle"></span>
+                                    <span class="sub-label">عمومی</span>
+                                    <span class="sub-label-2 blue">
+                                        <i class="far fa-tag"></i>
+                                        سند‍، مدیریت، سازمانی
+                                    </span>
+                                </div>
+                            </td>
+                            <td class="avatar-td">
+                                <img class="avatar-img" src="./img/1.jpg" alt="avatar" />
+                                <span>
+                                    <div class="avatar-name">معین قاسمی</div>
+                                    <div class="avatar-time">۳ روز پیش</div>
+                                </span>
+                            </td>
+                            <td class="priority-td">
+                                <img src="./img/low.jpg" alt="low" />
+                                <span>کم</span>
+                            </td>
+                            <td class="avatar-td">
+                                <img class="avatar-img" src="./img/1.jpg" alt="avatar" />
+                                <span>
+                                    <div class="avatar-name">محمدرضا شیری</div>
+                                    <div class="avatar-time">۳ روز پیش</div>
+                                </span>
+                            </td>
+                        </tr>
+
+                        
 
                     </table>
 
@@ -260,7 +328,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="message-box-persons">
                         <img src="img/1.jpg" width="50" height="50">
 
@@ -304,11 +372,11 @@
                     </div>
 
 
-                    <table id="table" style="margin-top:20px;" dir="rtl">
+                    <table id="table" dir="rtl">
                         <tr class="table-head">
-                            <td style="margin-right: 15px;">عنوان</td>
-                            <td style="margin-right: 8px;">ایجاد شده توسط</td>
-                            <td style="margin-left: 15px;">سامانه</td>
+                            <td>عنوان</td>
+                            <td>ایجاد شده توسط</td>
+                            <td>سامانه</td>
                         </tr>
 
                         <tr class="table-row-encyclopedia">
@@ -429,11 +497,11 @@
                     </div>
 
 
-                    <table id="table" style="margin-top:20px;" dir="rtl">
+                    <table id="table" dir="rtl">
                         <tr class="table-head">
-                            <td style="margin-right: 15px;">عنوان</td>
-                            <td style="margin-right: 8px;">ایجاد شده توسط</td>
-                            <td style="margin-left: 15px;">سامانه</td>
+                            <td>عنوان</td>
+                            <td>ایجاد شده توسط</td>
+                            <td>سامانه</td>
                         </tr>
 
                         <tr class="table-row-encyclopedia">
