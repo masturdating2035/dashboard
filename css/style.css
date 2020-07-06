@@ -406,6 +406,7 @@ body {
     color: #a8a7a7;
     position: relative;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
 }
 
 
@@ -591,6 +592,7 @@ body {
     border: 1px solid #f1f1f1;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     position: relative;
+    overflow-y: scroll;
 }
 
 
